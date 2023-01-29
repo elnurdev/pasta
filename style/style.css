@@ -409,7 +409,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 27px 0 20px;
+  padding: 0 0px 0 20px;
   border-top: 1px solid #EDEDF0;
 }
 .sets-section .main-sets .sets-blog .sets-price__blog-price {
@@ -426,13 +426,18 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  padding: 13px 0 18px 23px;
+  transition: all 0.2s ease;
+  padding: 13px 27px 18px 23px;
   border-left: 1px solid #EDEDF0;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.88);
 }
 .sets-section .main-sets .sets-blog .sets-price__blog .sets-price__blog-basket img {
   margin: 0 11px 0 0;
+}
+.sets-section .main-sets .sets-blog .sets-price__blog .sets-price__blog-basket:hover {
+  background: #4E9DD3;
+  color: #E7426A;
 }
 .sets-section .sets__btn {
   display: flex;
