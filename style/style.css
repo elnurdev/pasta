@@ -330,15 +330,6 @@
   background: #E7426A;
   border: 1px solid #E7426A;
 }
-.stock-section .stock__btn .left {
-  left: 0;
-}
-.stock-section .stock__btn .center {
-  left: 50%;
-}
-.stock-section .stock__btn .right {
-  left: 100%;
-}
 
 .celebrate-section .celebrate-title {
   font-weight: 600;
@@ -366,7 +357,7 @@
 }
 .celebrate-section .main-celebrate .celebrate-blog .cap {
   position: absolute;
-  margin: -54px 0 0 37px;
+  margin: -55px 0 0 33px;
 }
 .celebrate-section .main-celebrate .celebrate-blog__title {
   font-family: "Montserrat", sans-serif;
